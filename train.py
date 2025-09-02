@@ -56,5 +56,5 @@ with open('app/diabetes_model.pkl', 'wb') as file:
     pickle.dump((scaler, model), file)
 
 
-print("Model saved successfully as 'app/diabetes_model.pkl'")
+print("Model saved successfully as 'diabetes_model.pkl'")
 
